@@ -109,33 +109,33 @@ fBodyAccJerk-mean()-Y -- this is the mean of a series of mean frequencies of a j
 
 fBodyAccJerk-mean()-Z -- this is the mean of a series of mean frequencies of a jerk signal for body acceleration. It is only for the signal in the Z direction. 
 
-fBodyAccJerk-std()-X -- 
+fBodyAccJerk-std()-X -- this is the standard deviation of a series of mean frequencies of a jerk signal for body acceleration. It is only for the signal in the X direction. 
 
-fBodyAccJerk-std()-Y
+fBodyAccJerk-std()-Y -- this is the standard deviation of a series of mean frequencies of a jerk signal for body acceleration. It is only for the signal in the Y direction. 
 
-fBodyAccJerk-std()-Z
+fBodyAccJerk-std()-Z -- this is the standard deviation of a series of mean frequencies of a jerk signal for body acceleration. It is only for the signal in the Y direction. 
 
+fBodyAccJerk-meanFreq()-X -- this is the mean frequency of a jer signal for body acceleration. It is only for the signal in the X direction.
 
-373 fBodyAccJerk-meanFreq()-X
-374 fBodyAccJerk-meanFreq()-Y
-375 fBodyAccJerk-meanFreq()-Z
+fBodyAccJerk-meanFreq()-Y -- this is the mean frequency of a jerk signal for body acceleration. It is only for the signal in the Y direction.
 
+fBodyAccJerk-meanFreq()-Z -- this is the mean frequency of a jerk signal for body acceleration. It is only for the signal in the Z direction.
 
+fBodyGyro-mean()-X -- this is the mean frequency for body angular velocity. It is only for the signal in the X direction.
 
+fBodyGyro-mean()-Y -- this is the mean frequency for body angular velocity. It is only for the signal in the Y direction.
 
-424 fBodyGyro-mean()-X
-425 fBodyGyro-mean()-Y
-426 fBodyGyro-mean()-Z
-427 fBodyGyro-std()-X
-428 fBodyGyro-std()-Y
-429 fBodyGyro-std()-Z
+fBodyGyro-mean()-Z -- this is the mean frequency for body angular velocity. It is only for the signal in the Z direction.
 
+fBodyGyro-std()-X
+
+fBodyGyro-std()-Y
+
+fBodyGyro-std()-Z
 
 fBodyAccMag-mean()
 
 fBodyAccMag-std()
-
-
 
 fBodyBodyAccJerkMag-mean()
 
@@ -154,7 +154,9 @@ fBodyBodyGyroJerkMag-mean()
 fBodyBodyGyroJerkMag-meanFreq()
 
 angle(tBodyAccMean,gravity)
+
 angle(tBodyAccJerkMean),gravityMean)
+
 angle(tBodyGyroMean,gravityMean)
 
 angle(tBodyGyroJerkMean,gravityMean)
