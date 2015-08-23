@@ -127,15 +127,15 @@ fBodyGyro-mean()-Y -- this is the mean frequency for body angular velocity. It i
 
 fBodyGyro-mean()-Z -- this is the mean frequency for body angular velocity. It is only for the signal in the Z direction.
 
-fBodyGyro-std()-X
+fBodyGyro-std()-X -- this is the standard deviation of the frequency for body angular velocity. It is only for the signal in the X direction.
 
-fBodyGyro-std()-Y
+fBodyGyro-std()-Y -- this is the standard deviation of the frequency for body angular velocity. It is only for the signal in the Y direction.
 
-fBodyGyro-std()-Z
+fBodyGyro-std()-Z -- this is the standard deviation for body angular velocity. It is only for the signal in the Z direction.
 
-fBodyAccMag-mean()
+fBodyAccMag-mean() -- this measures the mean of the frequency magnitude for body acceleration.
 
-fBodyAccMag-std()
+fBodyAccMag-std() -- this measures the standard deviation of the frequency magnitude for body acceleration.
 
 fBodyBodyAccJerkMag-mean()
 
